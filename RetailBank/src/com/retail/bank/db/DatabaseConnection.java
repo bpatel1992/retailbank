@@ -10,7 +10,7 @@ public class DatabaseConnection {
 	public static final String USER_NAME= "root";
 	public static final String PASSWORD= "root";
 	public static Connection getConnection() throws ClassNotFoundException {
-		Connection con = null;
+		Connection con =  null;
 		try{  
 			Class.forName(DRIVER_NAME);  
 			con=DriverManager.getConnection(  
